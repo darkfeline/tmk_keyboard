@@ -90,14 +90,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(  // layer 0 : default
         // left hand
-        EQL, 1,   2,   3,   4,   5,   ESC,
-        BSLS,Q,   W,   E,   R,   T,   FN2,
-        TAB, A,   S,   D,   F,   G,
-        LSFT,Z,   X,   C,   V,   B,   FN1,
-        LGUI,GRV, BSLS,LEFT,RGHT,
-                                      LCTL,LALT,
-                                           HOME,
-                                 BSPC,DEL, END,
+        EQL,  1,   2,    3,   4,   5,   BSLS,
+        TAB,  Q,   W,    E,   R,   T,   FN2,
+        ESC,  A,   S,    D,   F,   G,
+        LSFT, Z,   X,    C,   V,   B,   FN1,
+        LGUI, GRV, BSLS, LEFT,RGHT,
+                                        LCTL,LALT,
+                                             HOME,
+                                   BSPC,DEL, END,
         // right hand
              FN3, 6,   7,   8,   9,   0,   MINS,
              LBRC,Y,   U,   I,   O,   P,   RBRC,
